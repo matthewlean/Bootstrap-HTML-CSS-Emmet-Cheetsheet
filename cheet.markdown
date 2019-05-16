@@ -3,8 +3,6 @@ Bootstrap Docs : [https://getbootstrap.com/docs/4.3/getting-started/introduction
 
 Emmet Docs: [https://docs.emmet.io/cheat-sheet/](https://docs.emmet.io/cheat-sheet/).
 
-<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-
 A quick guide on emmet useage with the bootstrap grid
 
 ## Bootstrap 4 
