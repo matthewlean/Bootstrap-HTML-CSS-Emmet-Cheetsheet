@@ -6,7 +6,8 @@ Emmet Docs: [https://docs.emmet.io/cheat-sheet/](https://docs.emmet.io/cheat-she
 A quick guide on emmet useage with the bootstrap grid
 
 ## Bootstrap 4 
-One Column Centered Grid
+
+### One Column Centered Grid
 ```
 .row.justify-content-center>.col-md-6
 
@@ -15,7 +16,7 @@ One Column Centered Grid
 </div>
 ```
 
-Two Column Grid
+### Two Column Grid
 ```
 .row>.col-md-6*2
 
@@ -25,7 +26,7 @@ Two Column Grid
 </div>
 ```
 
-Three Column Grid
+### Three Column Grid
 ```
 .row>.col-md-6*2
 
@@ -35,7 +36,7 @@ Three Column Grid
 </div>
 ```
 
-Image in first column
+### Image in first column
 ```
 .row>.col-md-6>img
 
@@ -48,8 +49,9 @@ Image in first column
     </div>
 </div>
 ```
+---
 
-Table
+### Table
 
 |Name|Favourite Color|
 | - |:--:|
@@ -74,6 +76,70 @@ table>(tr>th+th)*3
     </tr>
 </table>
 ```
+---
 
-Buttons
+### Buttons
 
+```
+a.btn 
+
+<a href="" class="btn"></a>
+```
+```
+a.btn.primary-btn
+
+<a href="" class="btn primary-btn"></a>
+```
+
+---
+
+## CSS
+
+### Margin and Padding
+#### Margin
+```
+margin:10px 8px 6px 4px;
+```
+Is the same as
+```
+margin-top:10px;
+margin-right: 8px;
+margin-bottom: 6px;
+margin-left: 4px;
+```
+
+#### Padding
+```
+padding:10px 8px 6px 4px;
+```
+Is the same as
+```
+padding-top:10px;
+padding-right: 8px;
+padding-bottom: 6px;
+padding-left: 4px;
+```
+---
+### Hover 
+You have a class and you want to add a hover effect to it... you use :hover
+ie: we have a ahref with the class of .btn-custom
+we want to add an effect to change it to background-colour: #000 ( black ) on hover
+we use the following css..
+The button will display normally as white (#fff) but when the mouse hovers over it black (#000)
+
+```
+.btn-custom{
+    background-color: #fff;
+}
+
+.btn-custom:hover{
+    background-color: #000;
+}
+```
+---
+
+### Border
+3px solid white border
+```
+border: 3px solid #fff;
+```
