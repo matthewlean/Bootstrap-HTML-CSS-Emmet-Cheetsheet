@@ -51,6 +51,51 @@ A quick guide on emmet useage with the bootstrap grid
 ```
 ---
 
+### Media Queries
+
+Breakpoints
+
+Extra small < 544px
+
+Small ≥ 544px
+
+Medium ≥ 768px
+
+Large ≥ 992px
+
+Extra large ≥ 1200px
+
+---
+
+### Typography
+
+
+Left aligned text
+```
+.text-left 
+```
+Center aligned text
+```
+.text-center
+```
+Right aligned text
+```
+.text-right
+```
+Lowercase text
+```
+.text-lowercause 
+```
+Uppercase text
+```
+.text-uppercase 
+```
+Capitalized text
+```
+.text-capitalize 
+```
+---
+
 ### Table
 
 |Name|Favourite Color|
@@ -80,6 +125,7 @@ table>(tr>th+th)*3
 
 ### Buttons
 
+.btn needs to be added to all links because it adds padding and margin
 ```
 a.btn 
 
@@ -143,3 +189,6 @@ The button will display normally as white (#fff) but when the mouse hovers over 
 ```
 border: 3px solid #fff;
 ```
+
+---
+
