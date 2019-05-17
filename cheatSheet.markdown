@@ -1,4 +1,4 @@
-# Bootstrap, HTML, CSS & Emmet Cheetsheet
+# Bootstrap, HTML, CSS & Emmet Cheatsheet
 Bootstrap Docs : [https://getbootstrap.com/docs/4.3/getting-started/introduction/](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 Emmet Docs: [https://docs.emmet.io/cheat-sheet/](https://docs.emmet.io/cheat-sheet/).
