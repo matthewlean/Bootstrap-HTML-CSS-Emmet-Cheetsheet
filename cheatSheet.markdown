@@ -12,7 +12,9 @@ A quick guide on emmet useage with the bootstrap grid
 .row.justify-content-center>.col-md-6
 
 <div class="row justify-content-center">
-    <div class="col-md-6"></div>
+    <div class="col-md-6">
+        <!-- Content Here -->
+    </div>
 </div>
 ```
 
@@ -21,18 +23,29 @@ A quick guide on emmet useage with the bootstrap grid
 .row>.col-md-6*2
 
 <div class="row">
-    <div class="col-md-6"></div>
-    <div class="col-md-6"></div>
+    <div class="col-md-6">
+        <!-- Content Here -->
+    </div>
+    <div class="col-md-6">
+        <!-- Content Here -->
+    </div>
 </div>
 ```
 
 ### Three Column Grid
 ```
-.row>.col-md-6*2
+.row>.col-md-4*3
 
 <div class="row">
-    <div class="col-md-6"></div>
-    <div class="col-md-6"></div>
+    <div class="col-md-4">
+        <!-- Content Here -->
+    </div>
+    <div class="col-md-4">
+        <!-- Content Here -->
+    </div>
+    <div class="col-md-4">
+        <!-- Content Here -->
+    </div>
 </div>
 ```
 
@@ -45,7 +58,7 @@ A quick guide on emmet useage with the bootstrap grid
         <img src="/link-to-image" alt="alt tag">
     </div>
     <div class="col-md-6">
-        <!-- content -->
+        <!-- Content Here -->
     </div>
 </div>
 ```
